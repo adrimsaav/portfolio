@@ -1,0 +1,14 @@
+.intro {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    max-width: 75rem;
+    padding-top: 15rem;
+    overflow: hidden;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
