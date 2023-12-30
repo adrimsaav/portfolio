@@ -8,4 +8,7 @@
 
 body {
     background:  #f6c7c7;
+    color: white;
+    overflow: hidden;
+    overflow-y: scroll;
 }
