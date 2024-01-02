@@ -1,23 +1,50 @@
 .navbar {
     height: 20vh;
     width: 8rem;
-    position: absolute;
+    position: fixed;
     display: flex;
-    padding: 1rem 2rem;
+    padding: 1vh 2vh 6vh;
     flex-direction: column;
     z-index: 3;
+    font-family: 'DotGothic16', sans-serif;
     align-items: center;
+    right: 5%;
+    top: 25%;
 }
 
 .navbar-item {
+    padding: 1vh 2vh 1.3vh;
+    background-color: #ffffff;
+    max-width: 60px;
+    max-height: 6vh;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
     margin: 1rem 0;
     cursor: pointer;
-    color: #ffffff;
+    color: #8e8e8e;
+}
+
+.home-icon {
+    width: 30vh;
+    height: auto;
 }
 
 .navbar-item:hover {
-    color: #ff4c76;
-    padding-bottom: 0.5rem;
+    color: #ff9bb3;
+    padding-bottom: 0.6rem;
     display: inline-block;
-    border-bottom: 5px solid #ff4c76;
+    border-bottom: 5px solid #ffabbe;
+}
+
+@media (max-width: 10vh) {
+    .navbar {
+        width: 100%;
+        right: 0;
+        top: 0;
+    }
+
+    .navbar-item {
+        max-width: none;
+        border-radius: 0;
+    }
 }
