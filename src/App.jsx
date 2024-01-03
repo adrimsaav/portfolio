@@ -9,7 +9,7 @@ import Contact from './components/NavBar/Contact/Contact';
 export default function App() {
   return (
     <Router>
-      <main className="App">
+      <div className="App">
         <NavBar />
         <Routes>
           <Route path="/" element={<Welcome />} />
@@ -17,7 +17,7 @@ export default function App() {
           <Route path="/projects" element={<Projects />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
-      </main>
+      </div>
     </Router>
   );
 }

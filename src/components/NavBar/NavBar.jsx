@@ -13,9 +13,6 @@ export default function NavBar() {
 
     return (
         <nav className={`navbar ${isMenuOpen ? 'menu-open' : ''}`}>
-            {/* <Link to="/" className='navbar-logo' onClick={() => setIsMenuOpen(false)}>
-                <img src={logo} alt="Logo" className='logo-image' />
-            </Link> */}
             <div className="menu-icon" onClick={toggleMenu}>
                 ☰
             </div>

@@ -6,8 +6,8 @@
     text-align: center;
     margin: 0;
     height: 100vh;
-    opacity: 0; /* Initial opacity */
-    transition: opacity 1s ease-in-out; /* Transition effect over 1 second */
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
 }
 
 .fade-in {
