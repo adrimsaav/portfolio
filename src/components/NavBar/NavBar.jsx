@@ -1,8 +1,8 @@
 import React, { useState } from "react";
-import { Link } from 'react-router-dom';
+import { Link as ScrollLink} from 'react-scroll';
 import './NavBar.css';
 
-import logo from '../../assets/adriana.png'; // Import your logo file
+import logo from '../../assets/adriana.png'; 
 
 export default function NavBar() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -17,15 +17,21 @@ export default function NavBar() {
                 ☰
             </div>
             <div className={`menu ${isMenuOpen ? 'open' : ''}`}>
-                <Link to="about" className='navbar-item' onClick={toggleMenu}>
+                <ScrollLink to="about" className='navbar-item'
+                smooth={true} duration={500}
+                onClick={toggleMenu}>
                     About
-                </Link>
-                <Link to="projects" className='navbar-item' onClick={toggleMenu}>
+                </ScrollLink>
+                <ScrollLink to="projects" className='navbar-item'
+                smooth={true} duration={500} 
+                onClick={toggleMenu}>
                     Projects
-                </Link>
-                <Link to="contact" className='navbar-item' onClick={toggleMenu}>
+                </ScrollLink>
+                <ScrollLink to="contact" className='navbar-item' 
+                smooth={true} duration={500}
+                onClick={toggleMenu}>
                     Contact
-                </Link>
+                </ScrollLink>
             </div>
         </nav>
     );

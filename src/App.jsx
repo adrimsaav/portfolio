@@ -11,12 +11,10 @@ export default function App() {
     <Router>
       <div className="App">
         <NavBar />
-        <Routes>
-          <Route path="/" element={<Welcome />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/projects" element={<Projects />} />
-          <Route path="/contact" element={<Contact />} />
-        </Routes>
+        <Welcome />
+        <About />
+        <Projects />
+        <Contact />
       </div>
     </Router>
   );

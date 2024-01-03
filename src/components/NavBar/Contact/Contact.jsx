@@ -5,8 +5,8 @@ export default function Contact() {
     return (
         <div className='contact-container'>
             <div className="contact-content">
-                <span className="text">
-                    <img src={contact} className="contactHeader" alt="header" />
+                <span className="contact-text">
+                    <img src={contact} className="contactHeader" alt="contact-header" />
                 </span>
             </div>
         </div>
