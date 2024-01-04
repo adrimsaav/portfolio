@@ -1,5 +1,5 @@
 .aboutName {
-    width: 30rem;
+    width: 28rem;
 }
 
 .aboutImage{
@@ -10,10 +10,11 @@
 .about-container {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     text-align: center;
     margin: 0;
-    height: 100vh;
+    height: 100%;
     opacity: 1;
     transition: opacity 1s ease-in-out;
 }
@@ -32,6 +33,6 @@
 
 .paragraph {
     font-family: 'DotGothic16';
-    font-size: 22px;
+    font-size: 18px;
     max-width: 80vh;
 }
