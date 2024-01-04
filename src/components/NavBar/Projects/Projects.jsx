@@ -10,7 +10,7 @@ export default function Projects() {
   const projectsData = [
     {
       title: 'Browser Memory Game',
-      description: 'This game is the First project ever — Javascript',
+      description: 'First project ever of mine — Javascript',
       previewImage: projectImage1,
       link: 'https://adrimsaav.github.io/browser-memory-game/',
     },
