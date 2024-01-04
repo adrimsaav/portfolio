@@ -18,7 +18,7 @@ export default function Projects() {
       title: 'Togethr',
       description: 'Social media/dating app — Python, Django, SQL',
       previewImage: projectImage2,
-      link: 'https://github.com/adrimsaav/togethr-app',
+      link: 'https://togethr-31dc444c8abd.herokuapp.com/',
     },
     {
       title: 'BoomerBot',
@@ -40,7 +40,7 @@ export default function Projects() {
               <h3>{project.title}</h3>
               <img src={project.previewImage} alt={project.title} />
               <p>{project.description}</p>
-              <a href={project.link}>
+              <a href={project.link} target="_blank" rel="noopener noreferrer">
                 View Project
               </a>
             </div>
