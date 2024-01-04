@@ -2,47 +2,62 @@
     width: 30rem;
 }
 
-/* .projects-container {
+.projects-container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     text-align: center;
     margin: 0;
     height: 100vh;
-    position: relative;
-    opacity: 0;
-    transition: opacity 1s ease-in-out;
-} */
+}
 
 .project-list {
     display: flex;
-    justify-content: space-between; /* Adjust this according to your layout preference */
-    align-items: center; /* Adjust this according to your layout preference */
-    margin-top: 20px; /* Adjust the margin as needed */
-  }
-  
-  .project {
-    width: 30%; /* Adjust the width as needed */
-    padding: 20px; /* Adjust the padding as needed */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a box shadow for visual appeal */
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+}
+
+.project {
+    width: 25%; 
+    height: 100%;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     background-color: rgb(255, 188, 204);
-  }
-  
-  .project img {
-    width: 100%; /* Make the image fill the container */
-    height: auto; /* Maintain aspect ratio */
-  }
-  
-  .project h3 {
-    margin-top: 10px; /* Adjust the margin as needed */
-  }
-  
-  .project p {
-    margin-top: 10px; /* Adjust the margin as needed */
-  }
-  
-  .project a {
-    display: block; /* Make the link a block-level element */
-    margin-top: 10px; /* Adjust the margin as needed */
-  }
+    font-family: 'DotGothic16';
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.project img {
+    width: 100%;
+    height: auto;
+}
+
+.project h3 {
+    margin-top: 10px;
+}
+
+.project p {
+    font-style: italic;
+    margin-top: 10px;
+}
+
+.project a {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #ff2542cf;
+    text-decoration: none;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+a,
+a:link,
+a:visited,
+a:active,
+a:focus {
+    color: #fcbebf;
+    text-decoration: none;
+}

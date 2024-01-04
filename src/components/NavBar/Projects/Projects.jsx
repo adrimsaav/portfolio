@@ -9,20 +9,20 @@ import './Projects.css';
 export default function Projects() {
   const projectsData = [
     {
-      title: 'Project 1',
-      description: 'Browser Memory Game',
+      title: 'Browser Memory Game',
+      description: 'This game is the First project ever — Javascript',
       previewImage: projectImage1,
       link: 'https://adrimsaav.github.io/browser-memory-game/',
     },
     {
-      title: 'Project 2',
-      description: 'Together - Social Media/Dating App',
+      title: 'Togethr',
+      description: 'Social media/dating app — Python, Django, SQL',
       previewImage: projectImage2,
-      link: 'https://example.com/project2',
+      link: 'https://github.com/adrimsaav/togethr-app',
     },
     {
-      title: 'Project 3',
-      description: 'BoomerBot - Chatbot App that Talks like a Boomer',
+      title: 'BoomerBot',
+      description: 'Chatbot app, speaks like a boomer — ReactJS',
       previewImage: projectImage3,
       link: 'https://boomerbot-c3175a34bfb5.herokuapp.com/',
     },
