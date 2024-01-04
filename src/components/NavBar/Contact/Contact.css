@@ -5,11 +5,10 @@
 .contact-container {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     text-align: center;
     margin: 0;
-    height: 100vh;
+    height: 50vh;
 }
 
 .contact-content {
