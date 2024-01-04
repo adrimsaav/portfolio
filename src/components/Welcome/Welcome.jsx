@@ -20,7 +20,7 @@ export default function Welcome() {
             </div>
             <div className="paragraph-container">
                 <p className="paragraph">
-                    I'm a software engineer that takes joy in expanding & strengthening my skill-set in full-stack development.
+                    I'm a software engineer + full-stack developer that takes joy in expanding & strengthening my skill-set in full-stack development.
                 </p>
                 </div>
             </div>

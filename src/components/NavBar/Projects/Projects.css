@@ -1,3 +1,63 @@
 .projectHeader{
     width: 30rem;
 }
+
+.projects-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    height: 100vh;
+}
+
+.project-list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+}
+
+.project {
+    width: 25%; 
+    height: 100%;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: rgb(255, 188, 204);
+    font-family: 'DotGothic16';
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.project img {
+    width: 100%;
+    height: auto;
+}
+
+.project h3 {
+    margin-top: 10px;
+}
+
+.project p {
+    font-style: italic;
+    margin-top: 10px;
+}
+
+.project a {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #ff2542cf;
+    text-decoration: none;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+a,
+a:link,
+a:visited,
+a:active,
+a:focus {
+    color: #fcbebf;
+    text-decoration: none;
+}

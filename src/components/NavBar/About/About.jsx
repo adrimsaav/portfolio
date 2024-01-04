@@ -25,8 +25,8 @@ export default function About() {
             </div>
             <div className="paragraph-container">
                 <p className="paragraph">            
-                    Hello there! I'm a software engineer based in Montgomery County, MD. Although I had some prior coding experience, 
-                    my genuine interest blossomed in late 2023. I'm continuously expanding my knowledge and skills, excited about the learning journey ahead. 
+                    Hello there! I'm a software engineer based in Montgomery County, MD. With some prior coding experience, 
+                    my genuine interest in software development blossomed in fall 2023. I'm continuously expanding my knowledge and skills, excited about the learning journey ahead. 
                     Apart from coding, I have a love for music, movies, and the satisfaction of making breakthroughs in programming. Explore my portfolio and feel free to connect!
                 </p>
                 </div>
