@@ -1,3 +1,48 @@
 .projectHeader{
     width: 30rem;
 }
+
+/* .projects-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    height: 100vh;
+    position: relative;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+} */
+
+.project-list {
+    display: flex;
+    justify-content: space-between; /* Adjust this according to your layout preference */
+    align-items: center; /* Adjust this according to your layout preference */
+    margin-top: 20px; /* Adjust the margin as needed */
+  }
+  
+  .project {
+    width: 30%; /* Adjust the width as needed */
+    padding: 20px; /* Adjust the padding as needed */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a box shadow for visual appeal */
+    background-color: rgb(255, 188, 204);
+  }
+  
+  .project img {
+    width: 100%; /* Make the image fill the container */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  .project h3 {
+    margin-top: 10px; /* Adjust the margin as needed */
+  }
+  
+  .project p {
+    margin-top: 10px; /* Adjust the margin as needed */
+  }
+  
+  .project a {
+    display: block; /* Make the link a block-level element */
+    margin-top: 10px; /* Adjust the margin as needed */
+  }
