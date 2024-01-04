@@ -8,7 +8,6 @@ import Contact from './components/NavBar/Contact/Contact';
 
 export default function App() {
   return (
-    <Router>
       <div className="App">
         <NavBar />
         <Welcome />
@@ -16,6 +15,5 @@ export default function App() {
         <Projects />
         <Contact />
       </div>
-    </Router>
   );
 }
