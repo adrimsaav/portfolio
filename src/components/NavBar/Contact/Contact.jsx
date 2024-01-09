@@ -6,7 +6,7 @@ import contact from "../../../assets/contact.png";
 
 export default function Contact() {
   return (
-    <div className="contact-container">
+    <div id="contact" className="contact-container">
       <div className="contact-content">
         <span className="contact-text">
           <img src={contact} className="contactHeader" alt="contact-header" />
