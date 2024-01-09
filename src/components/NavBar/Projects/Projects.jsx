@@ -29,7 +29,7 @@ export default function Projects() {
   ];
 
   return (
-    <div className='projects-container'>
+    <div id="projects" className='projects-container'>
       <div className='content'>
         <span className='text'>
           <img src={project} className='projectHeader' alt='header' />
