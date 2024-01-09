@@ -5,7 +5,7 @@
 .aboutImage{
     max-width: 40vh;
     padding-top: 20px;
-    border-radius: 25%;
+    border-radius: 50%;
 }
 .about-container {
     display: flex;
@@ -32,6 +32,32 @@
 
 .paragraph {
     font-family: 'DotGothic16';
-    font-size: 18px;
+    font-size: 20px;
     max-width: 80vh;
+}
+
+@media only screen and (max-width: 844px) {
+
+    .about-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
+    }
+
+    .aboutName {
+        width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .aboutImage {
+        max-width: 100%;
+        border-radius: 50%;
+    }
+
+    .paragraph {
+        font-size: 16px; 
+    }
 }
